@@ -11,6 +11,7 @@
 		43B7EAC22843767F007F902E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7EAC12843767F007F902E /* ContentView.swift */; };
 		43B7EAC428437681007F902E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B7EAC328437681007F902E /* Assets.xcassets */; };
 		43B7EAC728437681007F902E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B7EAC628437681007F902E /* Preview Assets.xcassets */; };
+		43B7EAD228448432007F902E /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7EAD128448432007F902E /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		43B7EAC12843767F007F902E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43B7EAC328437681007F902E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B7EAC628437681007F902E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43B7EAD128448432007F902E /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		43B7EABE2843767F007F902E /* SwiftUIFruits */ = {
 			isa = PBXGroup;
 			children = (
-				43B7EABF2843767F007F902E /* SwiftUIFruitsApp.swift */,
-				43B7EAC12843767F007F902E /* ContentView.swift */,
+				43B7EAD02844841E007F902E /* Data */,
+				43B7EACF28448416007F902E /* Model */,
+				43B7EACE2844840E007F902E /* View */,
+				43B7EACD284483EF007F902E /* App */,
 				43B7EAC328437681007F902E /* Assets.xcassets */,
 				43B7EAC528437681007F902E /* Preview Content */,
 			);
@@ -65,6 +69,37 @@
 				43B7EAC628437681007F902E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43B7EACD284483EF007F902E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				43B7EABF2843767F007F902E /* SwiftUIFruitsApp.swift */,
+				43B7EAC12843767F007F902E /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		43B7EACE2844840E007F902E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43B7EAD128448432007F902E /* FruitCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43B7EACF28448416007F902E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43B7EAD02844841E007F902E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B7EAD228448432007F902E /* FruitCardView.swift in Sources */,
 				43B7EAC22843767F007F902E /* ContentView.swift in Sources */,
 				43B7EAC02843767F007F902E /* SwiftUIFruitsApp.swift in Sources */,
 			);
